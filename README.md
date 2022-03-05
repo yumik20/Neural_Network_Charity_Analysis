@@ -24,31 +24,25 @@ Deliverable 3: Optimize the Model
 
 ### Results:
 
-# Data Preprocessing\
-What variable(s) are considered the target(s) for your model?\ 
+# Data Preprocessing
+What variable(s) are considered the target(s) for your model?
 >Application types 
 
-What variable(s) are considered to be the features for your model?\
->AFFILIATION\
-LASSIFICATION\	
-USE_CASE	ORGANIZATION\	
-STATUS\	
-INCOME_AMT\	
-SPECIAL_CONSIDERATIONS\	
-ASK_AMT\
+What variable(s) are considered to be the features for your model?
+>AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION,STATUS, INCOME_AMT,SPECIAL_CONSIDERATIONS, ASK_AMT
 
-What variable(s) are neither targets nor features, and should be removed from the input data?\
+What variable(s) are neither targets nor features, and should be removed from the input data?
 >PII such as EIN and name. 
 
 
-# Compiling, Training, and Evaluating the Model\
+# Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?\
->I tried many different combinations, but for the best performed one, with the accuracy of 72.58%, I used 8 neurons and 5 layers, first 2 activation functions are "relu" and the last one is "sigmoid". I chose such just from my experience and repeated testing.\
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+>I tried many different combinations, but for the best performed one, with the accuracy of 72.58%, I used 8 neurons and 5 layers, first 2 activation functions are "relu" and the last one is "sigmoid". I chose such just from my experience and repeated testing.
 
 
-Were you able to achieve the target model performance?\
->No, not higher than 75%\
+Were you able to achieve the target model performance?
+>No, not higher than 75%
 
 
 What steps did you take to try and increase model performance?\
