@@ -5,7 +5,7 @@
 From Alphabet Soup’s business team, Beks received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
 
 -EIN and NAME\
-—Identification columns\
+-Identification columns\
 -APPLICATION_TYPE—Alphabet Soup application type\
 -AFFILIATION—Affiliated sector of industry\
 -CLASSIFICATION—Government organization classification\
@@ -46,7 +46,7 @@ Were you able to achieve the target model performance?
 >No, not higher than 75%
 
 
-What steps did you take to try and increase model performance?\
+What steps did you take to try and increase model performance?
 >I tried many different combinations. Interestingly, after I added the check points, the performance actually went up from 53% to 72.58%. 
 
 
